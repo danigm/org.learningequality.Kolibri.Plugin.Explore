@@ -1,0 +1,27 @@
+{
+  "id": "org.learningequality.Kolibri.Plugin.Explore",
+  "branch": "1.0",
+  "build-extension": true,
+  "runtime": "org.learningequality.Kolibri",
+  "runtime-version": "master",
+  "sdk": "org.freedesktop.Sdk//19.08",
+  "appstream-compose": false,
+  "separate-locales": false,
+  "modules": [
+    {
+      "name": "kolibri-explore-plugin",
+      "buildsystem": "simple",
+      "build-commands": [
+        "pip3 install --exists-action=i --no-index --find-links=\"file://${PWD}\" --target=${FLATPAK_DEST}/lib/python kolibri_explore_plugin"
+      ],
+      "sources": [
+        {
+          "type": "file",
+          "url": "https://files.pythonhosted.org/packages/51/97/1605eb98563c0d7ed2d76e1a5bc5c077eff335c8c0ac927f141712ee7dde/kolibri_explore_plugin-0.0.1-py2.py3-none-any.whl",
+          "sha256": "a0868e5eb6ceb69c5a9fd91aceeb8c56d087236240b8a2be8a3e0e5ddc1fbe60"
+        }
+      ]
+    }
+
+  ]
+}
