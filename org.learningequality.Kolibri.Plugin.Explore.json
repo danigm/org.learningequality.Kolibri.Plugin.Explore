@@ -17,8 +17,8 @@
       "sources": [
         {
           "type": "file",
-          "url": "https://files.pythonhosted.org/packages/51/97/1605eb98563c0d7ed2d76e1a5bc5c077eff335c8c0ac927f141712ee7dde/kolibri_explore_plugin-0.0.1-py2.py3-none-any.whl",
-          "sha256": "a0868e5eb6ceb69c5a9fd91aceeb8c56d087236240b8a2be8a3e0e5ddc1fbe60"
+          "url": "https://files.pythonhosted.org/packages/c5/aa/48fc3ada727334851ed762c84111f8a2372440cf4491089cf73292c96b81/kolibri_explore_plugin-0.0.2-py2.py3-none-any.whl",
+          "sha256": "b9230b8f5f14fa5971eecf97cb4a0bed5f0dccd4cf9bfc87e8e246142f89f680"
         }
       ]
     }
